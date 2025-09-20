@@ -46,7 +46,7 @@ The discussed design examples target clock frequencies in the range of 100 MHz t
 
 **4. Correctness Criteria**
 
-The design is considered functionally correct only when:
+The design is considered functionally correct only when :
 
                         O0=O1=O2=O3=O4
 
