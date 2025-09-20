@@ -48,11 +48,12 @@ $ sudo make install
 $ sudo apt-get update
 $ sudo apt-get install iverilog
 ```
-![Screenshot]("https://github.com/user-attachments/assets/36382201-141a-49d7-b53a-bc7b0f590696")
+![Screenshot](<img width="1920" height="1080" alt="Screenshot (271)" src="https://github.com/user-attachments/assets/471c1d69-737b-4687-98e5-4320f85dc2ea" />
+)
 
 #### **gtkwave**
 ```bash
 $ sudo apt-get update
 $ sudo apt install gtkwave
 ```
-![Screenshot]("https://github.com/user-attachments/assets/b3ce4fa9-1527-4564-a65e-e7019f1a9fc5")
+![Screenshot]<img width="1920" height="1080" alt="Screenshot (272)" src="https://github.com/user-attachments/assets/d40900d2-d66e-478a-83ff-10e1876432ac" />
