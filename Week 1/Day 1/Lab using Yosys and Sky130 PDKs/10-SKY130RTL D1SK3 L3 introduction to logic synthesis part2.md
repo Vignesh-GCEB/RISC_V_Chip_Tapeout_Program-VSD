@@ -29,6 +29,8 @@ The library name prefix **CHI 130 FD SCHD** is common to all cells and can be ig
     Output = ((A1 + A2) * B1)'
     ```
 
+<img width="1920" height="1080" alt="Screenshot (310)" src="https://github.com/user-attachments/assets/04e9a30e-3706-4a8f-9ecb-444df464e1c3" />
+
 ---
 
 ## 1.3 Derivation of the Circuit's Boolean Expression
@@ -83,6 +85,7 @@ Y = (I1 . select) + (I0' + select)'
 
 Y = (I1 . select) + (I0 . select')
 
+<img width="1920" height="1080" alt="Screenshot (311)" src="https://github.com/user-attachments/assets/11964929-5413-4d69-99e7-bb6e266f1877" />
 
 ---
 
