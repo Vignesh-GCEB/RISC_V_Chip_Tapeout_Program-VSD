@@ -6,6 +6,8 @@
 - **Definition:** RTL (Register-Transfer Level) design is the behavioural representation of a required digital circuit specification.  
 - **Implementation:** It is typically written in a Hardware Description Language (HDL), such as Verilog.  
 - **Purpose:** The RTL code describes how a circuit should behave but it is not the final hardware itself. The goal is to convert this behavioural code into a physical digital logic circuit.  
+<img width="1920" height="1080" alt="Screenshot (296)" src="https://github.com/user-attachments/assets/719d9bec-f3fb-4a23-93ed-722ede14d5a5" />
+
 
 ### 1.2 Introduction to Logic Synthesis
 - **Core Concept:** Synthesis bridges the gap between the abstract RTL code and a physical circuit.  
@@ -19,6 +21,7 @@
 
 - **Output of Synthesis:**
   - **Netlist:** Describes the final circuit. It contains a list of the gates (from the `.lib` file) and their interconnections.  
+
 
 ---
 
@@ -36,6 +39,8 @@ The library contains multiple versions ("flavours") of the same gate, which diff
    - Example: A 2-input AND gate, a 3-input AND gate, and a 4-input AND gate.  
 2. **Performance:**  
    - Example: For a 2-input AND gate, the library might include a slow, medium, and fast version.  
+
+<img width="1920" height="1080" alt="Screenshot (297)" src="https://github.com/user-attachments/assets/3b09046c-63d8-4aff-b377-4f7a3a53f42d" />
 
 ---
 
@@ -60,6 +65,7 @@ The library contains multiple versions ("flavours") of the same gate, which diff
 ### 3.3 Understanding Setup Time
 - **Definition:** Setup time is the minimum period that data must remain stable at a flip-flop input *before* the active clock edge.  
 - **Analogy:** Like catching a train—you need to arrive a few minutes early, not exactly at the departure time, for a successful boarding.  
+<img width="1920" height="1080" alt="Screenshot (298)" src="https://github.com/user-attachments/assets/290af294-89b7-4598-acb4-4e1ddde143c2" />
 
 ---
 
@@ -72,3 +78,6 @@ The library contains multiple versions ("flavours") of the same gate, which diff
 ### 4.2 The Central Question
 - If the fastest possible cells minimise delay, why does the library include slow and medium-speed cells?  
 - The answer lies in **trade-offs** beyond speed, such as power consumption, area, and energy efficiency.  
+<img width="1920" height="1080" alt="Screenshot (299)" src="https://github.com/user-attachments/assets/5221f95e-9307-4659-a9d9-9bb49b5dfdde" />
+
+
