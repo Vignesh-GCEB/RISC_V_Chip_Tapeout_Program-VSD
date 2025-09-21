@@ -6,6 +6,7 @@
 - Hold Time is defined as the period after the clock edge during which the data input to a flip-flop must remain stable and unchanged.
 - The primary goal is to ensure a flip-flop (e.g., Flop B) captures the data launched by another flip-flop (e.g., Flop A) from the previous clock cycle, not the data launched in the current cycle.
 - If Flop B captures the data launched by Flop A in the same cycle, it will miss the data that was intended for it from the previous cycle, leading to data loss.
+<img width="1920" height="1080" alt="Screenshot (300)" src="https://github.com/user-attachments/assets/7a87a917-263f-4f56-84c1-f4db9ff64d68" />
 
 ### 1.2 Preventing Hold Violations
 - To avoid a hold violation, the circuit must guarantee a minimum delay.
@@ -41,6 +42,7 @@
 - **Performance:**
   - Advantage: Smaller area and lower power consumption.
   - Disadvantage: Higher delay (slower performance).
+<img width="1920" height="1080" alt="Screenshot (301)" src="https://github.com/user-attachments/assets/dfcb0924-b475-40d8-8a5b-8ad0edd3ee9f" />
 
 ---
 
@@ -52,6 +54,7 @@
 - Balancing selection is crucial:
   - Overuse of faster cells → excessive area, higher power consumption, and potential hold violations.
   - Overuse of slower cells → sluggish circuit, setup violations, failure to meet performance.
+<img width="1920" height="1080" alt="Screenshot (302)" src="https://github.com/user-attachments/assets/cd4f0cd3-de06-49ed-9af8-872edeb50d23" />
 
 ### 3.2 Illustration: RTL to Netlist Conversion
 - The synthesis process converts high-level **RTL (Register Transfer Level)** code into a **gate-level netlist** using standard cells from the library.
@@ -66,3 +69,5 @@
    - The synthesizer connects these standard cells (MUX, flop, etc.) according to the logic described in the RTL code.
    - Connections are made for inputs, outputs, clock, and reset.
    - The final output is a **netlist**, which is the design implemented using the standard cell gates available in the `.lib` file.
+   <img width="1920" height="1080" alt="Screenshot (303)" src="https://github.com/user-attachments/assets/09558451-ff9e-47a5-be7d-6643d572dbbb" />
+
