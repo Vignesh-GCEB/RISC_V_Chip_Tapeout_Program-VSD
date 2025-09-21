@@ -9,6 +9,7 @@
     * Fast cells
 - Session focus:
     * Walkthrough of a Sky130 library to understand its contents and structure.
+<img width="1920" height="1080" alt="Screenshot (315)" src="https://github.com/user-attachments/assets/e72bccc1-37c1-4ddb-bb1f-39ae70a75f5c" />
 
 --------------------------------------------------------------------------------
 1.2 Viewing and Handling .lib Files
@@ -112,6 +113,7 @@ tt → Typical-Typical process corner.
         - Switzerland: sub-zero
         - India: variable climate
     * Must work across day/night and seasons.
+<img width="1920" height="1080" alt="Screenshot (316)" src="https://github.com/user-attachments/assets/df40f566-da56-49a6-9c09-e56c0dee3f04" />
 
 --------------------------------------------------------------------------------
 3.5 Library Characterisation
