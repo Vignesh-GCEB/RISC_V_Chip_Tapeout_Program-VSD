@@ -6,6 +6,7 @@
 
 ### 1.1: Lab Objective  
 - The primary goal of this lab is to understand how to work with the **iVerilog simulator** ⚡ and the **GTKWave waveform viewer** 📊.  
+<img width="1920" height="1080" alt="Screenshot (288)" src="https://github.com/user-attachments/assets/ea93487b-226d-4dc7-89ea-f4c7b29c1863" />
 
 ### 1.2: File Structure and Naming Conventions 📂  
 - All design files are located in a folder named **Verilog files**.  
@@ -26,6 +27,7 @@ This chapter outlines the two-step process for simulating a Verilog design using
 ### 2.1: Step 1 – Compilation with iVerilog  
 - **Purpose:** Compile the Verilog design and its associated test bench into an executable file.  
 - **Command:**  
+<img width="1920" height="1080" alt="Screenshot (287)" src="https://github.com/user-attachments/assets/33a4cc67-0478-434b-85d0-bcbdc9f4e8d8" />
 
 
 - **Example:**  
@@ -39,6 +41,7 @@ This chapter outlines the two-step process for simulating a Verilog design using
 
 
 - **Output:** Produces a **VCD (Value Change Dump)** file containing all the signal data required for waveform viewing.  
+<img width="1920" height="1080" alt="Screenshot (286)" src="https://github.com/user-attachments/assets/69910be6-d7c7-46fa-acbb-3e3788fbab78" />
 
 ---
 
@@ -72,6 +75,7 @@ This chapter covers how to view and analyse the VCD file generated during simula
   - Select a signal, then use the forward/backward arrow buttons to jump between transitions (e.g., low to high).  
 
 ---
+<img width="1920" height="1080" alt="Screenshot (289)" src="https://github.com/user-attachments/assets/4c4ea39c-e5f6-498e-a546-793c37c8d950" />
 
 ## 🧪 Chapter 4: Case Study – Verifying a Multiplexer (`goodmux.v`)  
 
