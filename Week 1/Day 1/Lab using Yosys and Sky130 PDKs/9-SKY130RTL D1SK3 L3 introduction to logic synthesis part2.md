@@ -7,19 +7,23 @@
 Logic synthesis is the process of converting a high-level description of a design, such as Verilog RTL (Register-Transfer Level), into an optimized gate-level netlist. This netlist is implemented using standard cells from a specific technology library.
 
 - **Synthesizer Tool**: The tool used in this lab is YoSYS
-- **Core Workflow**: The fundamental steps in YoSYS are:
+- **Core Workflow**: The fundamental steps in YoSyS are:
   1. Read the Verilog design files
   2. Read the technology library files (.lib)
   3. Generate an output gate-level netlist
+<img width="1920" height="1080" alt="Screenshot (306)" src="https://github.com/user-attachments/assets/b9344c35-2879-4c1d-bc6a-36477d7501f7" />
+
 
 ### 1.2 Setting Up the Environment
 
 - **Invoking YoSYS**: The synthesizer is started from the command line by typing the command `yosys`
-  - This assumes YoSYS has been installed, for example, as part of the VSD (VLSI System Design) flow
+  - This assumes YoSYS has been installed, for example, as par<img width="1920" height="1080" alt="Screenshot (307)" src="https://github.com/user-attachments/assets/fd20b63f-346a-46d8-a3c1-ed8ce043abfc" />
+t of the VSD (VLSI System Design) flow
 - **Working Directory**: The commands are executed from the Verilog files folder, which is located within the main project directory cloned from GitHub
 - **File Structure**:
   - **Verilog Files**: Contains the design files (e.g., `good_underscore_mux.v`)
   - **mylib**: Contains the technology library files needed for synthesis
+<img width="1920" height="1080" alt="Screenshot (307)" src="https://github.com/user-attachments/assets/c369f53e-d95c-47e9-926e-c1ce48fba596" />
 
 ## Chapter 2: The YoSYS Synthesis Command Flow
 
@@ -66,6 +70,7 @@ This is the core synthesis step where the RTL is mapped to the standard cells fr
 - **Command**: `abc -liberty <path_to_library_file>`
 - **Purpose**: The abc command takes the high-level design and realizes its logic using the standard cells defined in the provided liberty (.lib) file
 - **Output**: This process generates a gate-level netlist and prints a summary report to the console
+<img width="1920" height="1080" alt="Screenshot (308)" src="https://github.com/user-attachments/assets/66b03ede-9d88-4db3-9bec-de6ca0d601da" />
 
 ## Chapter 3: Analysing and Visualising the Synthesis Results
 
@@ -96,6 +101,7 @@ YoSYS can generate a graphical representation of the gate-level netlist, which i
 - **Command**: `show`
 - **Purpose**: Displays a visual diagram of the synthesized logic
 - **Result**: For the `good_mux` example, this command would show a schematic where the multiplexer's logic is built entirely from the Sky 130 library cells mentioned in the report (inverter, NAND2, O2AI)
+<img width="1920" height="1080" alt="Screenshot (309)" src="https://github.com/user-attachments/assets/d950833a-6529-47b8-b702-eb555946195b" />
 
 ---
 
