@@ -1,4 +1,5 @@
 # Chapter 3: Netlist Generation and Analysis in Yosys
+<img width="1920" height="1080" alt="Screenshot (312)" src="https://github.com/user-attachments/assets/e5850d85-2810-48c7-bd53-41fae30adce8" />
 
 --------------------------------------------------------------------------------
 3.1 Writing the Verilog Netlist
@@ -29,6 +30,7 @@
     Result:
       - Produces a "sweet and small netlist".
       - Simplified and easier to analyse.
+<img width="1920" height="1080" alt="Screenshot (314)" src="https://github.com/user-attachments/assets/cd313f62-0933-43f8-be66-74884c209e9b" />
 
 
 --------------------------------------------------------------------------------
