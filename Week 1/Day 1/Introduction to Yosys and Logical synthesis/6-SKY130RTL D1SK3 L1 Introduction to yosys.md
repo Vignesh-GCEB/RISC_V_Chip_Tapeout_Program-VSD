@@ -10,6 +10,7 @@ Note: The provided source is a text transcript and does not include timestamps. 
 
 ### 1.2 The Synthesis Flow using Yosys
 The fundamental process involves taking a design and a standard cell library to produce a gate-level netlist.
+<img width="1920" height="1080" alt="Screenshot (295)" src="https://github.com/user-attachments/assets/2373318c-102a-434d-984a-3b6d33a8dc0d" />
 
 • Inputs:
     ◦ Design File: The Verilog file containing the RTL description of the circuit.
@@ -53,6 +54,7 @@ The verification process involves simulating the generated netlist and comparing
 ### 2.3 The "Golden Rule" of Verification
 • Core Principle: The output observed from simulating the netlist must be identical to the output observed from the original RTL simulation.
 • Quote: "Kindly note, this stimulus should be same as output observed during RTL simulation this should be same".
+<img width="1920" height="1080" alt="Screenshot (294)" src="https://github.com/user-attachments/assets/38fcc7f3-60a6-44a3-b4c0-56a537dea16e" />
 
 ### 2.4 Reusability of the Test Bench
 A key advantage in the verification flow is the ability to reuse the RTL test bench for the netlist simulation.
