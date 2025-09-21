@@ -2,7 +2,9 @@
 
 ## 1.1 Module Overview
 - The design file contains a Verilog module named `good_mux`.
-- This module is presented as an illustrative example; it is noted that there are multiple ways to code a multiplexer in Verilog.
+- This module is presented as an illustrative example; it is noted that there are multiple ways to code a multiple
+lexer in Verilog.
+<img width="1920" height="1080" alt="Screenshot (290)" src="https://github.com/user-attachments/assets/89ec5705-24b2-4e06-924f-b93d17c56b42" />
 
 ## 1.2 Module Interface (Inputs & Outputs)
 - **Inputs**: The module has three inputs:
@@ -19,7 +21,8 @@ The core function of the `good_mux` module is to select an input based on the `s
 - If `select` is HIGH (1): The output `Y` will take the value of input `I1`.  
 - If `select` is LOW (0): The output `Y` will take the value of input `I0`.  
 
----
+---<img width="1920" height="1080" alt="Screenshot (291)" src="https://github.com/user-attachments/assets/48562d18-9214-4a2b-bef0-4c6fe6893395" />
+
 
 # Chapter 2: The Test Bench File
 
@@ -45,6 +48,7 @@ The core function of the `good_mux` module is to select an input based on the `s
   - `always` blocks are used to change the input signals at specific time intervals.  
   - In the example, the `select` signal is toggled every 75 nanoseconds (`select = ~select`).  
   - The inputs `I0` and `I1` are also toggled after specific time durations to test the design's response.  
+<img width="1920" height="1080" alt="Screenshot (292)" src="https://github.com/user-attachments/assets/5331ef72-4e3f-475c-b7f0-6f22cf97daa1" />
 
 ## 2.4 Simulation Control
 - The duration of the simulation can be explicitly set.  
