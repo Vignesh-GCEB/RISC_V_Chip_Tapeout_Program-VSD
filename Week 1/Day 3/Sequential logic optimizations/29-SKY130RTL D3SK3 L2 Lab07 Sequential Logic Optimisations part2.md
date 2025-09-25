@@ -11,6 +11,7 @@ Sequential optimisation allows tools to **remove redundant sequential elements**
 
 ---
 
+
 ### 1.1 Case Study 1: `DFF_const_one` (Non-Optimised)
 
 - **Observation**: Synthesis statistics showed that a **D flip-flop (DFF)** cell was inferred.  
@@ -32,7 +33,9 @@ Sequential optimisation allows tools to **remove redundant sequential elements**
 - **Key Takeaway**:  
 - Classic example where a **sequential constant** eliminates the DFF → replaced with a constant net.  
 
----
+---<img width="1920" height="1080" alt="Screenshot (368)" src="https://github.com/user-attachments/assets/307c98ae-d869-44b7-a68e-bedb5e7d7446" />
+
+
 
 ## 🧮 Chapter 2: Analysis of Interconnected Constant Flops (`DFF_const_three`)
 
@@ -63,6 +66,7 @@ Sequential optimisation allows tools to **remove redundant sequential elements**
 👉 **Not a constant** either.  
 
 ---
+![Uploading Screenshot (369).png…]()
 
 ### 2.3 Final Synthesis Prediction
 - Both flops **must remain** in the final design.  
