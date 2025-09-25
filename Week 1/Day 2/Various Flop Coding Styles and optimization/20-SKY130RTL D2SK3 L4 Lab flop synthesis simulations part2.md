@@ -29,9 +29,9 @@ abc -liberty <path_to_lib_file>
 
 6. **Visualise Circuit (Optional)**  
 show
+<img width="1920" height="1080" alt="Screenshot (337)" src="https://github.com/user-attachments/assets/20565c80-5446-4c1c-bccd-a5229987061a" />
 
 
----
 
 ## 🔄 1.2 Case Study 1: DFF with Active-High Asynchronous Reset
 
@@ -49,6 +49,8 @@ reset (high) → inverter → reset_n (low) → DFF reset asserted
 
 - Demonstrates **signal polarity adaptation** using available standard cells.
 
+<img width="1920" height="1080" alt="Screenshot (339)" src="https://github.com/user-attachments/assets/fa83cda5-15a7-4d43-8263-e9cb7e971204" />
+
 ---
 
 ## 🔼 1.3 Case Study 2: DFF with Active-High Asynchronous Set
@@ -63,6 +65,7 @@ reset (high) → inverter → reset_n (low) → DFF reset asserted
 - RTL: `set = 1` → force Q = 1.  
 - Library: Requires `set_n = 0` for set.  
 - Tool fixes mismatch using inverter.  
+<img width="1920" height="1080" alt="Screenshot (340)" src="https://github.com/user-attachments/assets/f0c5e07d-aa63-45ef-b6c6-898f22abb970" />
 
 ---
 
@@ -106,7 +109,8 @@ Yosys optimised the MUX logic into the simpler **AND gate implementation**.
 | Async Set (active-high)        | Set = 1 → Q = 1             | Only active-low DFF  | Inserted inverter in set path       |
 | Sync Reset (edge-triggered)    | Reset only on clock edge    | Basic DFF (no reset) | Used AND gate before D-input        |
 
----
+---<img width="1920" height="1080" alt="Screenshot (341)" src="https://github.com/user-attachments/assets/1a188689-f704-47dc-87c5-26355eda2c94" />
+
 
 ## ✅ Key Takeaways
 - Yosys can **adapt RTL intent** to available library cells using additional gates (inverters or logic).  
