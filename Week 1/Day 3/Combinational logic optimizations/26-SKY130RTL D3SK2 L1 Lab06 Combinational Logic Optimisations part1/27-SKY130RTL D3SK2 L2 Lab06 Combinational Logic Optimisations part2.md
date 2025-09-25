@@ -32,7 +32,9 @@ A \cdot B = (A' + B')'
 
 **Final Result**  
 - Circuit reduces to a single **OR gate**.  
-- ✅ Verified in synthesis.  
+- ✅ Verified synthesis.
+<img width="1920" height="1080" alt="Screenshot (360)" src="https://github.com/user-attachments/assets/73a8a76e-d769-415f-b369-fa2919b1ae58" />
+
 
 ---
 
@@ -56,12 +58,14 @@ y = (a' \cdot 0) + a \cdot ((c' \cdot 0) + (c \cdot b))
 \[
 y = a \cdot b \cdot c
 \]
+<img width="1920" height="1080" alt="Screenshot (361)" src="https://github.com/user-attachments/assets/ccd898c2-2751-4598-aba3-9dbbf3c50c06" />
 
 **Optimised Circuit**  
 - ✅ Synthesis simplifies to a **3-input AND gate**.  
 - Quote: *“bingo we have a 3 input and gate”*.  
 
----
+---<img width="1920" height="1080" alt="Screenshot (362)" src="https://github.com/user-attachments/assets/f5a83255-07f9-4ba6-afc9-d3931def253f" />
+
 
 ## 🛠️ Chapter 2: Synthesis Workflow and Commands
 
