@@ -3,6 +3,7 @@
 This chapter covers different approaches to synthesising a design, focusing on hierarchy management and synthesis scope.
 
 ---
+<img width="1920" height="1080" alt="Screenshot (322)" src="https://github.com/user-attachments/assets/ba008792-d10d-46bb-9490-ad3421992e2e" />
 
 ## 1.1 Hierarchical vs. Flattened Synthesis
 
@@ -33,6 +34,7 @@ After `flatten`, the `show` command shows the expanded structure—direct AND/OR
 | Structure | Modular, matches original RTL   | Single expanded list of gates      |
 
 ---
+<img width="1920" height="1080" alt="Screenshot (323)" src="https://github.com/user-attachments/assets/453d78d0-ae16-4e46-a620-6ae98b1c3289" />
 
 ## 1.2 Submodule-Level Synthesis
 
@@ -51,6 +53,7 @@ synth -top sub_module_1
 - Other modules like `sub_module_2` are ignored.
 
 ---
+<img width="1920" height="1080" alt="Screenshot (324)" src="https://github.com/user-attachments/assets/8f2ce77c-b99d-48e9-ba88-e04ca2bfdfe2" />
 
 ### 1.2.2 Rationale for Submodule-Level Synthesis
 
@@ -62,6 +65,7 @@ synth -top sub_module_1
 2. Reuse the netlist for each instance.  
 3. Stitch together at the top level.  
 - **Benefit**: Saves significant synthesis time.
+<img width="1920" height="1080" alt="Screenshot (325)" src="https://github.com/user-attachments/assets/54dab7de-43a8-4d94-ac89-7ec7cbea5ba1" />
 
 #### 2. Divide and Conquer for Massive Designs
 - **Scenario**: Very large designs may not optimise well if synthesised as a whole.  
