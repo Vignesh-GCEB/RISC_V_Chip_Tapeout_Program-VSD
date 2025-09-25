@@ -39,15 +39,18 @@ always @(posedge clk or posedge rst)
 
 - **Simulation Result** (with iVerilog + GTKwave):  
 - Even if reset goes low mid-cycle, Q stays `0` until the next `clk ↑`.  
+<img width="1920" height="1080" alt="Screenshot (364)" src="https://github.com/user-attachments/assets/7f9165ef-d028-4a44-891d-6ae3b449be91" />
 
 ### 2.3 Synthesis Result
 - Synthesis infers a **standard DFF cell**:  
 - D connected to constant `1`.  
 - Reset/clock pins wired correctly.  
+
 - Q output preserved.  
 - ✅ Conclusion: Flip-flop **cannot be removed** since output changes are **clock-dependent** → fundamentally sequential.  
 
 ---
+<img width="1920" height="1080" alt="Screenshot (365)" src="https://github.com/user-attachments/assets/2c4814de-30eb-47f4-9154-2ddb495e96e3" />
 
 ## 🔁 Chapter 3: Case Study — `dff_const2.v` (True Sequential Constant)
 
@@ -98,7 +101,8 @@ show
 - Ensures **generic DFFs** from synthesis are mapped to **physical flip-flop cells** in the library.  
 - Required since libraries often have **separate sequential/combinational cells** or **specialised flops** (with set/reset pins).  
 
----
+---<img width="1920" height="1080" alt="Screenshot (366)" src="https://github.com/user-attachments/assets/894a18b4-264d-4115-8679-86de3db3aff3" />
+
 
 ## ✅ Key Takeaways
 
