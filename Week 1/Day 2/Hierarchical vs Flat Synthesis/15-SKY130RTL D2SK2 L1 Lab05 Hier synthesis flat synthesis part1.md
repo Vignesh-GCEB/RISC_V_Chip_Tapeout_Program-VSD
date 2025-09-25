@@ -26,6 +26,7 @@ This project demonstrates the difference between **hierarchical synthesis** and 
 - Inputs: `a`, `b`, `c`  
 - Output: `y`  
 - Flow: `(a, b) → AND (U1) → OR (U2) with input c → y`  
+<img width="1920" height="1080" alt="Screenshot (319)" src="https://github.com/user-attachments/assets/e9d2af86-7314-48f7-8933-31a52049cd90" />
 
 ---
 
@@ -46,6 +47,7 @@ synth -top multiple_module
 Map logic to Sky130 technology cells
 abc -liberty sky130_fd_sc_hd__tt_025C_1v80.lib
 
+<img width="1920" height="1080" alt="Screenshot (320)" src="https://github.com/user-attachments/assets/cd0226b0-837d-4e92-86b5-b6239d0b8c4c" />
 
 ---
 
@@ -99,6 +101,7 @@ write_verilog -noattr multiple_modules_hier.v
 
 ### Conclusion
 The synthesis tool selects a **NAND-based OR implementation** for efficiency in CMOS design.  
+<img width="1920" height="1080" alt="Screenshot (321)" src="https://github.com/user-attachments/assets/04f78078-baed-45fd-86cc-613d38c3840a" />
 
 ---
 
