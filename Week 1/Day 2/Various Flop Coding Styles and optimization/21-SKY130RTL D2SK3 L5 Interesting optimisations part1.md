@@ -4,6 +4,7 @@ This lab note explores an **interesting optimisation** that occurs in RTL synthe
 Instead of using expensive multiplier hardware, synthesis tools optimise the operation into **bit-shift wiring**.
 
 ---
+<img width="1920" height="1080" alt="Screenshot (345)" src="https://github.com/user-attachments/assets/cadf2e9b-4c62-403a-9e1e-852313de0c0e" />
 
 ## 📖 Chapter 1: Introduction to the Case Study
 
@@ -39,6 +40,7 @@ Y = 2 * A;
 - Mathematically equivalent to a **1-bit left shift**.  
 
 > *"Multiplying by two is nothing but the number appended with a zero."*
+<img width="1920" height="1080" alt="Screenshot (342)" src="https://github.com/user-attachments/assets/9485e1a6-aefd-4c64-8183-fdf33083bd26" />
 
 ---
 
@@ -60,7 +62,8 @@ Y = 1'b0
   - Example: `5 (101) × 4 = 20 (10100)`  
 - Multiply by 8 → append **3 zeros**  
 
----
+---<img width="1920" height="1080" alt="Screenshot (343)" src="https://github.com/user-attachments/assets/9a56d53b-13f5-490d-99bd-fba93fcfa07d" />
+
 
 ## 🛠️ 1.4 Synthesis Tool Verification
 
@@ -84,6 +87,7 @@ assign Y = {A, 1'b0};
 - Multiplication by **powers of two** is optimised to **bit-shifts** or **concatenation**, not real multipliers.  
 - Saves hardware, area, and power.  
 - Example of **intelligent optimisation in RTL synthesis**.
+<img width="1920" height="1080" alt="Screenshot (344)" src="https://github.com/user-attachments/assets/808388fd-ff5c-443e-8f97-4eab38bb1bab" />
 
 ---
 
