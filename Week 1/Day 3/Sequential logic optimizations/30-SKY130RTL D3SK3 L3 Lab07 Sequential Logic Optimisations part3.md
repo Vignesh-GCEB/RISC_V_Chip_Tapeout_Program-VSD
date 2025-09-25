@@ -23,7 +23,8 @@ iverilog DFF_const_3.v dff_const_3_tb.v
 - The output `Q` generates a **1-cycle pulse** (low for exactly one clock period).  
 - This pulse coincides with the exact clock cycle where `Q1` rises.  
 
----
+---<img width="1920" height="1080" alt="Screenshot (370)" src="https://github.com/user-attachments/assets/8f79507b-ab51-4cc4-8e89-7456755f3ad1" />
+
 
 ### 1.2 Synthesis Analysis
 
@@ -89,7 +90,8 @@ To reinforce learning, students should:
 
 ✅ Compare simulation vs synthesis results and confirm which flops truly collapse to constants and which remain.  
 
----
+---<img width="1920" height="1080" alt="Screenshot (371)" src="https://github.com/user-attachments/assets/8ed4d9b0-5cad-499f-a38b-17d6207ed195" />
+
 
 ## 📌 Final Takeaway
 
