@@ -1,6 +1,7 @@
 # 📘 Understanding Combinational Circuits and Flip-Flops
 
 This document explains the **problems with combinational circuits** due to propagation delays and glitches, and how **flip-flops** provide a reliable solution to stabilize signals in digital design.
+<img width="1920" height="1080" alt="Screenshot (326)" src="https://github.com/user-attachments/assets/c10dc6fd-9e33-4286-80d2-9b8bee753972" />
 
 ---
 
@@ -83,6 +84,7 @@ Flops integrate **reset** or **set** inputs for initialisation.
 | **Synchronous**  | Reset/set occurs only on clock edge |
 
 ---
+<img width="1920" height="1080" alt="Screenshot (327)" src="https://github.com/user-attachments/assets/1511a5db-2b19-4977-b772-25005237bdc3" />
 
 ## ✅ Key Takeaways
 - Combinational circuits face **propagation delay → glitches**.  
