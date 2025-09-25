@@ -15,6 +15,7 @@ This document introduces basic and advanced **sequential logic optimisation tech
   - State Optimisation  
   - Retiming  
   - Sequential Logic Cloning  
+<img width="1920" height="1080" alt="Screenshot (354)" src="https://github.com/user-attachments/assets/2b2747c6-67d9-4ddd-badd-159ffff95a6b" />
 
 ---
 
@@ -98,6 +99,7 @@ The following advanced sequential optimisation methods exist but are beyond prac
 - **State Optimisation**: Reduce FSM state count for simpler transitions.  
 - **Retiming**: Relocate flip-flops across combinational logic to balance delays or improve speed.  
 - **Sequential Logic Cloning**: Duplicate sequential elements to reduce fanout load or improve timing.  
+<img width="1920" height="1080" alt="Screenshot (355)" src="https://github.com/user-attachments/assets/ea986691-c247-4afb-8771-71f1afe1cfba" />
 
 ---
 
