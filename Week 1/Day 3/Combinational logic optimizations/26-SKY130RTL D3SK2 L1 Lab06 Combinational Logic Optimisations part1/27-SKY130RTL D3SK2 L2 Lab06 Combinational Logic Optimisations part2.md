@@ -33,6 +33,7 @@ A \cdot B = (A' + B')'
 **Final Result**  
 - Circuit reduces to a single **OR gate**.  
 - ✅ Verified in synthesis.  
+<img width="1920" height="1080" alt="Screenshot (360)" src="https://github.com/user-attachments/assets/18b5a60b-5bcc-46ed-950a-64bd668483c6" />
 
 ---
 
@@ -60,6 +61,7 @@ y = a \cdot b \cdot c
 **Optimised Circuit**  
 - ✅ Synthesis simplifies to a **3-input AND gate**.  
 - Quote: *“bingo we have a 3 input and gate”*.  
+<img width="1920" height="1080" alt="Screenshot (361)" src="https://github.com/user-attachments/assets/3120c6fc-e128-4cdf-b560-214eea534fb5" />
 
 ---
 
@@ -100,7 +102,8 @@ opt_clean -purge
 
 write_verilog final_netlist.v
 
-- **Goal**: Study the impact of optimisation **across module boundaries**.  
+- **Goal<img width="1920" height="1080" alt="Screenshot (362)" src="https://github.com/user-attachments/assets/39f86dc0-dcd3-460b-ac3d-58d9b5c387b4" />
+**: Study the impact of optimisation **across module boundaries**.  
 
 ---
 
