@@ -20,6 +20,7 @@ always @(posedge clock or posedge async_reset)
 - Else if clock edge occurs → `Q = D`.  
 - **Characteristic**:  
 Reset action does **not wait** for clock.  
+<img width="1920" height="1080" alt="Screenshot (328)" src="https://github.com/user-attachments/assets/dccb3547-bc7d-47a7-9393-cff76d0c0a37" />
 
 ---
 
@@ -36,6 +37,7 @@ always @(posedge clock or posedge async_set)
 - If `async_set = 1` → `Q = 1` immediately.  
 - Else if clock edge occurs → `Q = D`.  
 - **Note**: Signal name doesn’t matter (`alpha`, `beta` etc.), behaviour defines functionality.  
+<img width="1920" height="1080" alt="Screenshot (329)" src="https://github.com/user-attachments/assets/a8e7b7d1-ea8a-4b92-a2a5-e5b0f59fa0e6" />
 
 ---
 
@@ -73,6 +75,7 @@ always @(posedge clock)
 - If `sync_reset = 1` → MUX selects `0`.  
 - If `sync_reset = 0` → MUX selects `D`.  
 - Value at D waits until next clock edge before being loaded.  
+<img width="1920" height="1080" alt="Screenshot (330)" src="https://github.com/user-attachments/assets/8e07d669-a6fa-4387-abd0-dbaf554b5bb5" />
 
 ---
 
@@ -95,6 +98,7 @@ always @(posedge clock or posedge async_reset)
 - Flip-flop uses:  
 - **Dedicated async reset pin**  
 - **MUX on D-input** for synchronous reset functionality  
+<img width="1920" height="1080" alt="Screenshot (331)" src="https://github.com/user-attachments/assets/e8f56c23-d946-4199-bde7-2b533df658c1" />
 
 ---
 
