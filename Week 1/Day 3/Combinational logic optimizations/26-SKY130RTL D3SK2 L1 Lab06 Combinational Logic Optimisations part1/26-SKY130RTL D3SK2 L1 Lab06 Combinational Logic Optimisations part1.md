@@ -15,7 +15,8 @@ The exercises demonstrate how synthesis tools simplify Boolean expressions and m
 
 All files are located in the Verilog files directory.
 
----
+---<img width="1920" height="1080" alt="Screenshot (357)" src="https://github.com/user-attachments/assets/33c7ed71-e2cd-44ff-859c-9f4d9ca009fa" />
+
 
 ## 🧮 2.0 Case Study 1: `opt_check.v`
 
@@ -63,6 +64,7 @@ show
 **Result**:  
 - Tool simplified design into a **2-input AND gate**.  
 - Matches expected outcome. ✅  
+<img width="1920" height="1080" alt="Screenshot (358)" src="https://github.com/user-attachments/assets/c8a540e7-f91f-49df-9313-df4bda13d5ec" />
 
 ---
 
@@ -97,6 +99,7 @@ Y = A + B
 **Result**:  
 - The tool did **not directly instantiate a standard OR gate**.  
 - Instead, it produced a **non-inverting realisation of OR**.  
+<img width="1920" height="1080" alt="Screenshot (359)" src="https://github.com/user-attachments/assets/5010eaa6-1e78-458b-8902-a20676d6753d" />
 
 ### Reason for Discrepancy
 - In CMOS logic:  
