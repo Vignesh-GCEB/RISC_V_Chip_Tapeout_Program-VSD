@@ -25,6 +25,7 @@ Simulations are carried out using **iVerilog** and waveforms are analysed in **G
 - **Testbench Naming Convention**:  
   - Prefix `tb_` for testbenches.  
   - Example: Testbench for `dff_async_reset.v` → `tb_dff_async_reset.v`.  
+<img width="1920" height="1080" alt="Screenshot (332)" src="https://github.com/user-attachments/assets/cd86b8a7-df2d-486d-8069-b80c90d8e6bf" />
 
 ---
 
@@ -43,7 +44,8 @@ Simulations are carried out using **iVerilog** and waveforms are analysed in **G
 - Data Path (`D → Q`): **Synchronous**  
 - Reset Path: **Asynchronous**, bypasses the clock  
 
----
+---<img width="1920" height="1080" alt="Screenshot (334)" src="https://github.com/user-attachments/assets/fa80ca4b-82ec-490d-b270-2e54f830f9a4" />
+
 
 ## 🔼 Chapter 3: D-Flip-Flop with Asynchronous Set
 
@@ -63,7 +65,8 @@ Simulations are carried out using **iVerilog** and waveforms are analysed in **G
 - Data Path (`D → Q`): **Synchronous**  
 - Set Path: **Asynchronous**, forces Q = 1  
 
----
+---<img width="1920" height="1080" alt="Screenshot (335)" src="https://github.com/user-attachments/assets/b1e335b2-baff-4468-84ba-25dddaaa6b80" />
+
 
 ## 🔁 Chapter 4: D-Flip-Flop with Synchronous Reset
 
@@ -84,6 +87,7 @@ Simulations are carried out using **iVerilog** and waveforms are analysed in **G
 - Reset Path: **Synchronous**, only at active clock edge  
 
 ---
+<img width="1920" height="1080" alt="Screenshot (336)" src="https://github.com/user-attachments/assets/1ea11af8-2187-41ef-8baf-688508130061" />
 
 ## 📌 Chapter 5: Conclusion and Next Steps
 
