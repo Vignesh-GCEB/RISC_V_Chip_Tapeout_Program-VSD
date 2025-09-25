@@ -76,6 +76,7 @@ Unlike basic optimisation (e.g., Sequential Constant Propagation covered in labs
 - Frees unused slack in faster paths to improve bottlenecks.  
 - Boost example: **200 MHz → 250 MHz**.  
 - A powerful optimisation for **pipelined designs**.  
+<img width="1920" height="1080" alt="Screenshot (356)" src="https://github.com/user-attachments/assets/c4be9680-8937-4446-b764-a7041adb87da" />
 
 ---
 
