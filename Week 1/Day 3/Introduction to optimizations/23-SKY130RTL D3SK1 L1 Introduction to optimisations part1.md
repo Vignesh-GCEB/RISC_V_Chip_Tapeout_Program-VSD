@@ -18,6 +18,7 @@ This module explores **combinational logic optimisation** in digital design. Opt
 2. **Boolean Logic Optimisation**  
    - Simplifies complex Boolean expressions into efficient forms.  
    - Common methods: **Karnaugh maps (K-maps)**, **Quine-McCluskey algorithm**.  
+<img width="1920" height="1080" alt="Screenshot (351)" src="https://github.com/user-attachments/assets/326a5530-fb1d-4f3d-bb67-2e8c4bb7c961" />
 
 ---
 
@@ -48,6 +49,7 @@ Y = (A \cdot B + C)^\prime
 - Less **area**  
 - Less **power**  
 - Demonstrates how constants simplify logic *“downstream”*.  
+<img width="1920" height="1080" alt="Screenshot (352)" src="https://github.com/user-attachments/assets/8c67f505-6b29-410b-bb29-2896254cfdf1" />
 
 ---
 
@@ -97,6 +99,7 @@ A highly complex nested expression reduces to a simple **2-input XNOR gate**.
 ### 3.2 Synthesis and Automation
 - This manual simplification mirrors **K-map reduction** and **Boolean algorithms**.  
 - **Modern Synthesis Tools** (like Yosys, Synopsys DC, Cadence Genus, etc.) perform such optimisations automatically, mapping RTL to minimal, efficient hardware.  
+<img width="1920" height="1080" alt="Screenshot (353)" src="https://github.com/user-attachments/assets/cb8aeb0f-91cf-429c-bc21-23040990fdd5" />
 
 ---
 
