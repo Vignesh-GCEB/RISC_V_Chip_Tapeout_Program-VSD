@@ -12,6 +12,7 @@ This document highlights a unique case in digital hardware design where multipli
 - **Function**:  
 Y = A * 9;
 
+<img width="1920" height="1080" alt="Screenshot (346)" src="https://github.com/user-attachments/assets/a258c913-6139-4a45-a6dd-a5a61a0088b6" />
 
 ---
 
@@ -43,6 +44,7 @@ Y = {A, A}
 **Important Note**:  
 - `AA` does **not** mean multiplication.  
 - It represents **bit concatenation** of A with itself.  
+<img width="1920" height="1080" alt="Screenshot (347)" src="https://github.com/user-attachments/assets/c94a1529-8489-4823-ab23-bc9bbf7243d5" />
 
 ---
 
@@ -66,7 +68,8 @@ assign Y = {A, A};
 
 - Confirms that `Y` is the concatenation of `A` with itself.
 
----
+---<img width="1920" height="1080" alt="Screenshot (350)" src="https://github.com/user-attachments/assets/925e134d-c506-4a19-9b4c-f6e4627abb34" />
+
 
 ## 🗝️ Section 1.4: Key Concepts and Takeaways
 
