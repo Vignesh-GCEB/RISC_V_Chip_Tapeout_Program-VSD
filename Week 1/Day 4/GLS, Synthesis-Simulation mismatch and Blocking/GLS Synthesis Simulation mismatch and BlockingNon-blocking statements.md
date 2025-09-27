@@ -4,6 +4,7 @@ This document introduces **Gate Level Simulation (GLS)** and common **synthesis-
 GLS uses the synthesised netlist to validate both logical correctness and (optionally) timing, helping catch issues that may not appear at the RTL simulation stage.
 
 ---
+<img width="1920" height="1080" alt="Screenshot (379)" src="https://github.com/user-attachments/assets/8ba262db-6781-4f63-be17-96d4844c6f73" />
 
 ## 📖 Chapter 1: Gate Level Simulation (GLS)
 
@@ -25,7 +26,8 @@ GLS uses the synthesised netlist to validate both logical correctness and (optio
    - Requires **timing-aware GLS** with SDF (Standard Delay Format) annotations.  
    - **Note**: Current focus = functional GLS, not timing-aware simulation.  
 
----
+---<img width="1920" height="1080" alt="Screenshot (380)" src="https://github.com/user-attachments/assets/26670736-a757-4d8e-8d70-ca2f97ef69f8" />
+
 
 ### 1.3 GLS Setup and Flow
 
@@ -47,7 +49,8 @@ Design (Synthesised Netlist) + Test Bench + Gate-Level Verilog Models
   - Simulator cannot interpret these directly.  
   - Requires gate-level Verilog models that define functional behaviour of standard cells.  
 
----
+---<img width="1920" height="1080" alt="Screenshot (381)" src="https://github.com/user-attachments/assets/d56d14ac-d60b-40fa-995c-25467ac1ae62" />
+
 
 ## 📖 Chapter 2: Synthesis-Simulation Mismatches
 
@@ -67,6 +70,7 @@ Design (Synthesised Netlist) + Test Bench + Gate-Level Verilog Models
 - **Problem**: If an input is omitted, RTL simulation may “hold” old values.  
 
 **Example: 2x1 MUX**
+<img width="1920" height="1080" alt="Screenshot (382)" src="https://github.com/user-attachments/assets/daddbcd6-d732-4d5b-b043-7609fb73eb92" />
 
 
 // ❌ Incorrect
@@ -103,6 +107,7 @@ end
   - Parallel behaviour.  
   - Evaluates all RHS first, then updates LHS.  
   - Independent of order.  
+<img width="1920" height="1080" alt="Screenshot (383)" src="https://github.com/user-attachments/assets/418a79df-23b6-4298-acc9-eaba341bcc93" />
 
 ---
 
@@ -125,6 +130,7 @@ end
 
 **Golden Rule**:  
 👉 *Always use non-blocking (`<=`) for sequential flops.*  
+<img width="1920" height="1080" alt="Screenshot (384)" src="https://github.com/user-attachments/assets/4fcbc51d-a2e6-4dd4-9612-ef671789a936" />
 
 ---
 
@@ -143,6 +149,7 @@ end
 - **Mismatch**: RTL sim looks like sequential, hardware is pure combinational.  
 
 ✅ Best Practice: For combinational, blocking works but must be carefully used. For sequential → **never** use blocking.  
+<img width="1920" height="1080" alt="Screenshot (385)" src="https://github.com/user-attachments/assets/037c827a-dccb-46ea-828e-e6abcf5c73e2" />
 
 ---
 
