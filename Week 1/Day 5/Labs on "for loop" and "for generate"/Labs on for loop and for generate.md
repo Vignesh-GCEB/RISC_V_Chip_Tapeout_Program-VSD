@@ -15,7 +15,8 @@ Two key examples are explored:
   - `for-generate` → structural, used **outside always block** (for hardware replication).  
 - **Application**: Demonstrated with a **4-to-1 multiplexer (MUX)**.  
 
----
+---<img width="1920" height="1080" alt="Screenshot (432)" src="https://github.com/user-attachments/assets/58c39a03-b8f8-476c-9c32-c614578c7065" />
+
 
 ### 1.1.2 MUX Code Structure (`MUX_generate.v`)
 - **Inputs**: I0, I1, I2, I3 (1-bit each); `select` (2-bit).  
@@ -50,6 +51,7 @@ Two key examples are explored:
 
 ✔️ **Key Insight**:  
 *"Whether you need a 4x1 or 256x1 MUX, `for` loop code remains the same — concise, elegant, scalable."*
+<img width="1920" height="1080" alt="Screenshot (433)" src="https://github.com/user-attachments/assets/52024324-34aa-40a8-88e5-caa40bc445cd" />
 
 ---
 
@@ -75,6 +77,7 @@ Two key examples are explored:
 - Outputs: sum, cout  
 
 ---
+<img width="1920" height="1080" alt="Screenshot (434)" src="https://github.com/user-attachments/assets/27811926-456c-42b1-bd79-0c3a84de9de2" />
 
 ### 1.2.2 RCA Implementation (`rca.v`)
 - **Output width rule**: Adding two n-bit numbers = (n+1)-bit sum.  
@@ -113,6 +116,7 @@ endgenerate
 - Behaviour exactly matches RCA design.  
 
 ---
+<img width="1920" height="1080" alt="Screenshot (435)" src="https://github.com/user-attachments/assets/114ebfdc-68a6-4d72-946e-f438c1658048" />
 
 ### 1.2.4 Suggested Exercise
 - Synthesize the RCA.  
