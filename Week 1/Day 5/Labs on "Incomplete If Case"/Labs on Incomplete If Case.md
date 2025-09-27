@@ -4,6 +4,7 @@ This document explores the **danger of incomplete conditionals (if/case statemen
 The goal is to demonstrate through simulation and synthesis how missing branches in conditionals unintentionally create sequential elements.
 
 ---
+<img width="1920" height="1080" alt="Screenshot (407)" src="https://github.com/user-attachments/assets/b81e96c9-4d93-4327-b6b7-30a2c48681e8" />
 
 ## 📖 Chapter 1: Introduction to Inferred Latches
 
@@ -35,6 +36,7 @@ if (I0) Y = I1;
 end
 - Flaw: Output `Y` undefined when `I0=0`.  
 - **Expected Result**: To preserve last value → latch.
+<img width="1920" height="1080" alt="Screenshot (406)" src="https://github.com/user-attachments/assets/b60abbad-a78d-4a97-9dcb-a02f158cf70a" />
 
 ---
 
@@ -55,7 +57,8 @@ end
 - When I0=0 → Y **latches last value**.  
 - Waveform shows Y “freezes” whenever I0 goes low.  
 
----
+---<img width="1920" height="1080" alt="Screenshot (408)" src="https://github.com/user-attachments/assets/9bed709a-608e-46cf-a656-1753bcb1bb1b" />
+
 
 ### 2.4 Synthesis Verification (Yosys)
 - Yosys infers **D-latch (`$dlatch`)**.  
@@ -71,6 +74,7 @@ end
 - **Lesson:** Incomplete `if` = Inferred latch.  
 
 ---
+<img width="1920" height="1080" alt="Screenshot (409)" src="https://github.com/user-attachments/assets/2a5fe40e-2390-4a33-b910-b5aba2792f0f" />
 
 ## 🧮 Chapter 3: Case Study 2 — Nested Incomplete If (`incomplete_if2.v`)
 
@@ -99,6 +103,7 @@ end
   - I0=1 → Y=I1  
   - I0=0 & I2=1 → Y=I3  
   - I0=0 & I2=0 → Y holds previous value (latch behaviour).  
+<img width="1920" height="1080" alt="Screenshot (410)" src="https://github.com/user-attachments/assets/a37da7b1-6475-458a-ac11-793c7db149ba" />
 
 ---
 
@@ -112,6 +117,7 @@ end
 ### 3.5 Conclusion
 - Both **simulation and synthesis** align with theory.  
 - Rule proven: *If all conditions are not covered, synthesis infers a latch.*  
+<img width="1920" height="1080" alt="Screenshot (411)" src="https://github.com/user-attachments/assets/1137cb46-a3cc-49e0-941f-68567b1187ac" />
 
 ---
 
